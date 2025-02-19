@@ -1,2 +1,42 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    
+}
+
+
+.logo-image {
+    padding-left: 100px;
+}
+
+.vector-image {
+    padding-right: 100px;
+    align-items: center;
+    display: flex;
+    max-width: 20px;
+    height: auto;
+
+}
+main {
+    display: flex;
+    align-items: center;
+}
+
+.visual-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.picture-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 /*Pedro Part ↑*/
 /*Kaho part　↓*/
