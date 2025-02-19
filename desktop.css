@@ -40,3 +40,42 @@ main {
 
 /*Pedro Part ↑*/
 /*Kaho part　↓*/
+
+
+.header_box{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin:auto;
+    padding:0px  40px;
+    text-align: center;
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+}
+
+
+.header_text{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.story_box{
+    display: flex;
+    height: 400px;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center;
+}
+
+.btn_lft{
+    align-items: center;
+}
+
+.btn_rgt{
+    align-items: center;
+    
+}
