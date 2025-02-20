@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 nav {
     display: flex;
     flex-direction: row;
@@ -20,22 +27,120 @@ nav {
     height: auto;
 
 }
-main {
+.first-container {
     display: flex;
-    align-items: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .visual-section {
     display: flex;
     flex-direction: column;
     width: 50%;
+    font-size: 32px;
+    background-color: #e9f4ff;
+    justify-content: center;
+    padding-bottom: 25px;
+}
 
+.visual-section h1 {
+    margin-left: 30px;
+}
+span {
+    text-decoration: underline;
+    text-decoration-color: blue; /* Define a cor do underline */
+    text-decoration-thickness: 2px; /* Define a espessura */
 }
 
 .picture-section {
     display: flex;
     flex-direction: column;
     width: 50%;
+    background-color: #e9f4ff;
+
+}
+
+button {
+    width: 167px;
+    background-color: blue;
+    height: 54px;
+    color: white;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-top: 48px;
+}
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.header-section h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.header-section p {
+    margin-top: 30px;
+}
+ .visual-section2 {
+    display: flex;
+    width: 100%;
+ }
+
+ .visual-section2 img {
+    margin-left: 100px;
+ }
+
+ .paragraph-div {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+ }
+
+ .image-container {
+    width: 40%;
+}
+.services-images {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as imagens se ajustem para a linha seguinte quando necessário */
+    justify-content: flex-start; /* Centraliza as imagens dentro do contêiner */
+    gap: 20px; /* Adiciona espaço entre as imagens */
+    margin-left: 20px;
+
+}
+
+.services-section {
+    display: flex;
+    background-color: #e9f4ff;
+    align-items: center;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.services-section h1 {
+    text-align: center;
+    padding-bottom: 32px;
+    margin-top: 48px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
 }
 
 /*Pedro Part ↑*/
