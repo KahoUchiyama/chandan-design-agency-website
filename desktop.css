@@ -70,6 +70,10 @@ button {
     border-radius: 8px;
     margin-left: 30px;
     margin-top: 48px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 .header-section {
     display: flex;
