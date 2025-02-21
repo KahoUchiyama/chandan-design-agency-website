@@ -152,10 +152,8 @@ button {
 
 .header_box{
     position: relative;
-    width: 80%;
-    max-width: 600px;
     margin:auto;
-    padding:0px  40px;
+    padding:50px  40px;
     text-align: center;
 }
 
@@ -184,6 +182,7 @@ span{
 .story_block{
     display: flex;
     width: 70%;
+    height: 450px;
     background-color: #F4F6FE;
     margin: 20px;
     border-radius: 10px;
@@ -193,13 +192,14 @@ span{
 .quote_box{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin: 10px;
+    justify-content: center;
 }
 
 .float_picture{
-    width: 180px;
+    width: 30%;
     height: auto;
-    margin: 10px;
+    margin: 50px;
 }
 
 .quotation{
@@ -212,18 +212,12 @@ span{
     width: 30px;
 }
 
-.story_container{
-}
-
 .slider{
     display: block;
     margin: auto;
 }
 
 /*sectionスタート*/
-.section_contact{
-    
-}
 
 .contact_box{
     display: flex;
@@ -238,7 +232,8 @@ span{
 .leftside_context{
     display: flex;
     flex-direction: column;
-    margin-right: 100px;   
+    margin-right: 100px;  
+    gap: 40px; 
 }
 
 .leftside_top,
@@ -249,8 +244,8 @@ span{
 
 .leftside_logo{
     width: 40px;
-    height: 40px;
-    padding-top: 16px;
+    height: 50px;
+    padding-top: 10px;
     padding-right: 5px;
 }
 
@@ -287,7 +282,8 @@ input{
     height: 48px;
     border: 1px solid #E2E7ED;
     color: #9AA5B3;
-    border-radius: 5px;
+    border-radius: 5px; 
+    padding-left: 13px;
 }
 
 button{
@@ -317,9 +313,6 @@ button{
     padding: 20px;
 }
 
-.image1{
-}
-
 .under{
     background-color:#E9F4FF;
     height: 150px;
@@ -333,35 +326,44 @@ button{
 .read{
     font-size: 17px;
     color: #4361EE;
+    padding-top: 20px;
 }
 
 .bottom_button{
     justify-content: center;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .footer_icon{
-    margin-top: 70px;
+    width: 100%;
+    margin-top: 50px 100px;
     display: flex;
-    margin-top: 100px;
     color: #E2E7ED;
     background-color:#03071B;
-    padding: 50px 100px;
-    gap: 50px;
+    padding: 100px 50px 50px 50px;
+    gap: 100px;
+    justify-content: center;
 }
 
 .footer_title{
     font-weight: bold;
+    padding-bottom: 15px;
 }
 
 .footer_1{
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 0px;
+    align-items: left;
 }
 
 .main_logo{
     width: 80px;
+}
+
+.mini_icon{
+    padding-top: 20px;
 }
 
 .footer_2{
@@ -369,24 +371,36 @@ button{
     flex-direction: column;
 }
 
-.footer_content {
+.footer2_top,
+.footer2_middle,
+.footer2_bottom{
+    display:flex;
+}
+
+.footer2_text {
     display: flex;
     flex-direction: column; /* ヘッダーとテキストを縦並び */
-    padding-left:
+    padding-top: 10px;
+    padding-left: 5px;
 }
 
 .footer_logo{
     width: 20px;
-    height: 20px;
-    padding-top: 18px;
+    height: 35px;
+    padding-top: 16px;
+    margin-right: 7px;
 }
 .footer_3{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    width: 150px;
 }
 .footer_4{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    text-align: left;
 }
 
 .bottom_mail{
@@ -395,7 +409,14 @@ button{
     color: #E2E7ED;
 }
 
+.sub_text{
+    font-size: 13px;
+}
+
 .copyright{
     color: #E2E7ED;
     background-color:#03071B;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
