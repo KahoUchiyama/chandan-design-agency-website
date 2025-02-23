@@ -1,2 +1,342 @@
 /*Pedro Part ↑*/
 /*Kaho part　↓*/
+
+.header_box{
+    margin:auto;
+    padding:50px  40px;
+    text-align: center;
+}
+
+span{    
+    background-image: url("./assets/kaho/under_bar.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }    
+    /*text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;*/
+
+.header_text{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    padding:80px 0;
+}
+
+.story_box{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #4F5863;  
+}
+
+.story_block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 375px;
+    background-color: #F4F6FE;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.quote_box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.float_picture{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.quotation{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.btn_lft,
+.btn_rgt{
+    align-items: center;
+    width: 30px;
+}
+
+.slider{
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+/*sectionスタート*/
+.section_contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_box{
+    /*display: flex;
+    flex-direction: column;*/
+    width: 850px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9F4FF;
+    margin: auto;
+    padding-left: 180px;
+}
+
+.leftside_context{
+    display: flex;
+    gap: 40px; 
+    height: 200px;
+    flex-wrap: wrap; /* 次の行に折り返す */
+
+}
+
+.leftside_top{
+    display:flex;
+}
+
+.leftside_middle{
+    display:flex;
+}
+
+
+.leftside_bottom{
+    display:flex;
+}
+
+
+.leftside_logo{
+    width: 40px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 5px;
+    display: flex;
+
+}
+
+.leftside_content {
+    display: flex;
+    flex-direction: column; 
+  /* ヘッダーとテキストを縦並び */
+    padding-left: 10px;
+}
+
+.leftside_header{
+    font-size: 20px;
+}
+
+.leftside_text{
+    color:darkgray;
+}
+
+.grid_box{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    background-color: white;
+    padding: 30px;
+    border: none;
+    border-radius: 10px; 
+    position: relative;
+    bottom: -100px; 
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+input{
+    width: 300px;
+    height: 48px;
+    border: 1px solid #E2E7ED;
+    color: #9AA5B3;
+    border-radius: 5px; 
+    padding-left: 13px;
+}
+
+button{
+    margin-top: 20px;
+    width:  150px;
+    height: 50px;
+    color: white;
+    background-color: #4361EE;
+    border-radius: 10px;
+    border: none;
+}
+
+/*blogs*/
+.blog_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog_left,
+.blog_center{
+    display: flex;
+    flex-direction:column;
+    width: 370px;
+    padding: 10px;
+}
+
+.blog_right{
+    display: none;
+}
+
+.under{
+    background-color:#E9F4FF;
+    height: 150px;
+    padding: 15px;
+    border-radius: 0 0 20px 20px;
+}
+
+.blog_text{
+    font-size: 20px;
+}
+.read{
+    font-size: 17px;
+    color: #4361EE;
+    padding-top: 20px;
+}
+
+.bottom_button{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/*footer*/
+
+.footer_icon {
+    margin-top: 50px;
+    display: flex;   
+    align-items: center; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 100%;
+    max-width: 850px; /* スマホサイズに最適化 */
+    margin: 0 auto; /* 画面中央配置 */
+    padding: 20px;
+    color: #E2E7ED;
+    background-color:#03071B;
+    gap: 10px;
+    padding: 100px 10px 20px 10px;
+}
+
+.footer_title{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer_1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: flex-start;
+    order: 1;
+    width: 100%;
+}
+
+.main_logo{
+    width: 120px;
+}
+
+.mini_icon{
+    display: flex;    
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.social,
+.be,
+.insta,
+.in{
+    width: 40px;
+    height: 40px;
+    jus
+}
+
+.footer_2{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+}
+
+.footer2_top,
+.footer2_middle,
+.footer2_bottom{
+    display:flex;
+}
+
+.footer2_text {
+    display: flex;
+    flex-direction: column; /* ヘッダーとテキストを縦並び */
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.footer_logo{
+    width: 40px;
+    height: 35px;
+    padding-top: 16px;
+    margin-right: 7px;
+}
+.footer_3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 150px;
+    order: 4;
+}
+.footer_4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    order: 2;
+}
+
+.footer_1,
+.footer_2,
+.footer_3,
+.footer_4 {
+    display: flex;
+    align-items: flex-start; /* 子要素を左揃え */
+    width: 48%;
+}
+
+.bottom_mail{
+    width: 350px;
+    background-color: #03071B;
+    color: #E2E7ED;
+}
+
+.sub_text{
+    font-size: 13px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E2E7ED;
+    background-color:#03071B;
+    font-size: 12px;
+    display: flex;
+    padding: 10px 0;
+    order: 5;
+    margin: auto;
+}
