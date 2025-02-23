@@ -1,2 +1,47 @@
 /*Pedro Part ↑*/
-/*Kaho part　↓*/
+/*Kaho part　↓*/    margin-right: 7px;
+}
+.footer_3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+    order: 4;
+}
+.footer_4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    order: 2;
+}
+
+/*.footer_1,*/
+.footer_2,
+.footer_3,
+.footer_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 子要素を左揃え */
+    width: 100%; /* 横幅いっぱいにする */
+}
+
+.bottom_mail{
+    width: 350px;
+    background-color: #03071B;
+    color: #E2E7ED;
+}
+
+.sub_text{
+    font-size: 13px;
+}
+
+.copyright{
+    color: #E2E7ED;
+    background-color:#03071B;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    order: 5;
+}
