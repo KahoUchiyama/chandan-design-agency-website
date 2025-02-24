@@ -1,7 +1,161 @@
-/*Pedro Part ↑*/
-/*Kaho part　↓*/    margin-right: 7px;
-    background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+header {
+    margin-bottom: 20px;
+    padding-top: 1px;
+   
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0;
+}
+
+
+
+img {
+    max-width: 100vw;
+}
+
+.first-container {
+    background-color: #e9f4ff;
+    margin-top: 30px;
+    display: flex;
+}
+
+.visual-section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.visual-section h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.picture-section {
+   display: flex;
+   justify-content: center;
+}
+
+.picture-section img {
+    max-width: 287px;
+    position: relative;
+    top: 15px;
+}
+
+button {
+    max-width: 167px;
+    margin-top: 20px;
+    width: 167px;
+    background-color: blue;
+    height: 54px;
+    color: white;
+    border-radius: 8px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.header-section {
+    margin-top: 80px;
+    text-align: center;
+}
+.header-section h1 {
+    margin-bottom: 30px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.header-section p {
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.header-section img {
+    margin-bottom: 30px;
+}
+
+.paragraph-div {
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.services-section {
+    background-color: #e9f4ff;
+}
+
+.services-section h1 {
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+.services-section img {
+    max-width: 158px;
+}
+
+.services-images {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img-5, .img-6, .img-7, .img-8 {
+    display: none;
+}
+
+.service-button {
+    
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 3px;
+}
+
+
+
+
+/*Pedro Part ↑*/
+/*Kaho part　↓*/  
+    
+
 .footer_3{
     display: flex;
     flex-direction: column;
