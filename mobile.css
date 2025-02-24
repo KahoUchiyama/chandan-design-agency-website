@@ -153,21 +153,34 @@ span{
 
 
 /*Pedro Part ↑*/
+<<<<<<< Updated upstream
 /*Kaho part　↓*/  
 
 
     
+=======
+/*Kaho part　↓*/
+
+>>>>>>> Stashed changes
 .header_box{
     margin:auto;
     padding:50px  40px;
     text-align: center;
 }
 
+<<<<<<< Updated upstream
 span{    
     background-image: url("./assets/kaho/under_bar.png");
     background-repeat: no-repeat;
     background-position: bottom;
     }    
+=======
+.spantag{    
+    background-image: url("./assets/kaho/under_bar.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }   
+>>>>>>> Stashed changes
     /*text-decoration: underline;
     text-decoration-color: blue;
     text-decoration-thickness: 3px;*/
