@@ -157,12 +157,11 @@ button {
     text-align: center;
 }
 
-span{
-    text-decoration: underline;
-    text-decoration-color: blue;
-    text-decoration-thickness: 3px;
-}
-
+.spantag{    
+    background-image: url("./assets/kaho/under_bar.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }    
 
 .header_text{
     font-weight: bold;
@@ -217,7 +216,7 @@ span{
     margin: auto;
 }
 
-/*sectionスタート*/
+/*section*/
 
 .contact_box{
     display: flex;
@@ -251,7 +250,7 @@ span{
 
 .leftside_content {
     display: flex;
-    flex-direction: column; /* ヘッダーとテキストを縦並び */
+    flex-direction: column; 
     padding-left: 10px;
 }
 
@@ -334,9 +333,11 @@ button{
     text-align: center;
     margin-bottom: 70px;
 }
+/*footer*/
 
 .footer_icon{
     width: 100%;
+    height: auto;
     margin-top: 50px 100px;
     display: flex;
     color: #E2E7ED;
@@ -354,12 +355,14 @@ button{
 .footer_1{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding-left: 30px;
     align-items: left;
 }
 
 .main_logo{
     width: 80px;
+    max-width: 100%;
+    display: flex;
 }
 
 .mini_icon{
@@ -379,7 +382,7 @@ button{
 
 .footer2_text {
     display: flex;
-    flex-direction: column; /* ヘッダーとテキストを縦並び */
+    flex-direction: column; 
     padding-top: 10px;
     padding-left: 5px;
 }
@@ -416,7 +419,11 @@ button{
 .copyright{
     color: #E2E7ED;
     background-color:#03071B;
-    display: flex;
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
     justify-content: center;
-    padding: 50px;
+    padding: 70px;
+    flex-wrap: nowrap;
 }
+

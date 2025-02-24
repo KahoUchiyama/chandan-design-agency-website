@@ -7,14 +7,12 @@
     text-align: center;
 }
 
-span{    
+.spantag{    
     background-image: url("./assets/kaho/under_bar.png");
     background-repeat: no-repeat;
     background-position: bottom;
-    }    
-    /*text-decoration: underline;
-    text-decoration-color: blue;
-    text-decoration-thickness: 3px;*/
+    }  
+
 
 .header_text{
     font-weight: bold;
@@ -34,7 +32,8 @@ span{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 375px;
+    max-width: 375px;
+    height: auto;
     background-color: #F4F6FE;
     border-radius: 10px;
     padding: 20px;
@@ -52,7 +51,7 @@ span{
 .float_picture{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
@@ -86,21 +85,21 @@ span{
 .contact_box{
     /*display: flex;
     flex-direction: column;*/
-    width: 850px;
+    width: 100%;
     padding: 20px;
     align-items: center;
     justify-content: center;
     background-color: #E9F4FF;
     margin: auto;
-    padding-left: 180px;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
 }
 
 .leftside_context{
     display: flex;
-    gap: 40px; 
-    height: 200px;
+    gap: 20px; 
+    height: 140px;
     flex-wrap: wrap; /* 次の行に折り返す */
-
 }
 
 .leftside_top{
@@ -138,6 +137,7 @@ span{
 }
 
 .leftside_text{
+    font-size: 16px;
     color:darkgray;
 }
 
@@ -147,11 +147,11 @@ span{
     width: 400px;
     gap: 10px;
     background-color: white;
-    padding: 30px;
+    padding: 30px;   
     border: none;
     border-radius: 10px; 
     position: relative;
-    bottom: -100px; 
+    bottom: -130px; 
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
     
 }
@@ -266,7 +266,6 @@ button{
 .in{
     width: 40px;
     height: 40px;
-    jus
 }
 
 .footer_2{
@@ -319,7 +318,8 @@ button{
 }
 
 .bottom_mail{
-    width: 350px;
+    width: 250px;
+    height: 40px;
     background-color: #03071B;
     color: #E2E7ED;
 }
